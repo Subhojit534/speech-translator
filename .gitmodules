@@ -1,0 +1,3 @@
+[submodule "translation_api"]
+	path = translation_api
+	url = https://github.com/ishu17077/translation_api

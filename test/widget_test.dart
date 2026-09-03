@@ -1,8 +1,9 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:translation_api/main.dart';
+import 'package:speech_translator/main.dart';
 
 void main() {
-  testWidgets('App smoke test loads main navigation and home screen', (WidgetTester tester) async {
+  testWidgets('App smoke test loads main navigation and home screen',
+      (WidgetTester tester) async {
     await tester.pumpWidget(const SantaliTranslatorApp());
     await tester.pump(const Duration(milliseconds: 200));
 

@@ -1,4 +1,4 @@
-name: translation_api
+name: speech_translator
 description: "Hindi to Santhali Mobile Translation App with Voice & Offline Support."
 version: 1.0.0+1
 publish_to: 'none'
@@ -15,6 +15,8 @@ dependencies:
   flutter_tts: ^4.2.2
   permission_handler: ^11.3.1
   shared_preferences: ^2.3.5
+  translation_api:
+    path: ./translation_api
 
 dev_dependencies:
   flutter_test:

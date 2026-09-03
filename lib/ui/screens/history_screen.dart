@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:translation_api/src/service/storage/storage_service.dart';
-import 'package:translation_api/src/service/voice/voice_service.dart';
+import 'package:speech_translator/service/storage/storage_service.dart';
+import 'package:speech_translator/service/voice/voice_service.dart';
 
 class HistoryScreen extends StatefulWidget {
   const HistoryScreen({super.key});

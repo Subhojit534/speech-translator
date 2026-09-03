@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:translation_api/src/offline/santali_dictionary.dart';
-import 'package:translation_api/src/service/hybrid_translation_service.dart';
-import 'package:translation_api/src/service/voice/voice_service.dart';
+import 'package:speech_translator/service/offline/santali_dictionary.dart';
+import 'package:speech_translator/hybrid_translation_service.dart';
+import 'package:speech_translator/service/voice/voice_service.dart';
 
 class ConversationMessage {
   final String text;

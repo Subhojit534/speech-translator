@@ -1,12 +1,12 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:translation_api/src/offline/offline_translator.dart';
-import 'package:translation_api/src/offline/santali_dictionary.dart';
-import 'package:translation_api/src/service/hybrid_translation_service.dart';
-import 'package:translation_api/src/service/storage/storage_service.dart';
-import 'package:translation_api/src/service/voice/voice_service.dart';
-import 'package:translation_api/src/ui/widgets/ol_chiki_keyboard.dart';
+import 'package:speech_translator/service/offline/offline_translator.dart';
+import 'package:speech_translator/service/offline/santali_dictionary.dart';
+import 'package:speech_translator/hybrid_translation_service.dart';
+import 'package:speech_translator/service/storage/storage_service.dart';
+import 'package:speech_translator/service/voice/voice_service.dart';
+import 'package:speech_translator/ui/widgets/ol_chiki_keyboard.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

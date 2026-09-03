@@ -1,13 +1,13 @@
-import 'package:translation_api/src/offline/offline_translator.dart';
-import 'package:translation_api/src/offline/ol_chiki_converter.dart';
-import 'package:translation_api/src/service/translation/translation_impl.dart';
+import 'package:speech_translator/service/offline/offline_translator.dart';
+import 'package:speech_translator/service/offline/ol_chiki_converter.dart';
+import 'package:translation_api/translation_api.dart';
 
 class HybridTranslationService {
   static final HybridTranslationService _instance = HybridTranslationService._internal();
   factory HybridTranslationService() => _instance;
   HybridTranslationService._internal();
 
-  final TranslationService _onlineService = TranslationService();
+  final TranslationApi _onlineService = TranslationApi();
   bool isOfflineMode = false;
 
   /// Translate with smart online / offline hybrid routing
@@ -47,7 +47,7 @@ class HybridTranslationService {
           : clean;
 
       final res = await _onlineService
-          .translate(
+          .translationService.translate(
             sourceLanguage: sourceLang == 'sat' ? 'sat_Ol_Chiki' : sourceLang,
             targetLanguage: targetLang == 'sat' ? 'sat_Ol_Chiki' : targetLang,
             input: onlineInput,

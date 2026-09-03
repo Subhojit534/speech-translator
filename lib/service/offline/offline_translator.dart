@@ -1,5 +1,5 @@
-import 'package:translation_api/src/offline/ol_chiki_converter.dart';
-import 'package:translation_api/src/offline/santali_dictionary.dart';
+import 'package:speech_translator/service/offline/ol_chiki_converter.dart';
+import 'package:speech_translator/service/offline/santali_dictionary.dart';
 
 class TranslationResult {
   final String sourceText;

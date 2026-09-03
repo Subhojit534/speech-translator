@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:translation_api/src/offline/santali_dictionary.dart';
-import 'package:translation_api/src/service/voice/voice_service.dart';
+import 'package:speech_translator/service/offline/santali_dictionary.dart';
+import 'package:speech_translator/service/voice/voice_service.dart';
 
 class DictionaryScreen extends StatefulWidget {
   const DictionaryScreen({super.key});

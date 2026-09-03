@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:translation_api/src/ui/screens/conversation_screen.dart';
-import 'package:translation_api/src/ui/screens/dictionary_screen.dart';
-import 'package:translation_api/src/ui/screens/history_screen.dart';
-import 'package:translation_api/src/ui/screens/home_screen.dart';
-import 'package:translation_api/src/ui/screens/phrasebook_screen.dart';
-import 'package:translation_api/src/ui/theme/app_theme.dart';
+import 'package:speech_translator/ui/screens/conversation_screen.dart';
+import 'package:speech_translator/ui/screens/dictionary_screen.dart';
+import 'package:speech_translator/ui/screens/history_screen.dart';
+import 'package:speech_translator/ui/screens/home_screen.dart';
+import 'package:speech_translator/ui/screens/phrasebook_screen.dart';
+import 'package:speech_translator/ui/theme/app_theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();

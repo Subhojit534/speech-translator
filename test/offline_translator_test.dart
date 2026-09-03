@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:translation_api/src/offline/offline_translator.dart';
-import 'package:translation_api/src/offline/ol_chiki_converter.dart';
-import 'package:translation_api/src/offline/santali_dictionary.dart';
+import 'package:speech_translator/service/offline/offline_translator.dart';
+import 'package:speech_translator/service/offline/ol_chiki_converter.dart';
+import 'package:speech_translator/service/offline/santali_dictionary.dart';
 
 void main() {
   group('Offline Translator Tests', () {
